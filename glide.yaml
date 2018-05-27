@@ -1,2 +1,2 @@
-package: github.com/umg/gcp-arch-dockerized-go
+package: github.com/alan-ma-umg/dockerized-golang-service
 import: []
