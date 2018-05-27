@@ -1,0 +1,10 @@
+FROM golang:1.5.2
+
+ADD . /go/src/github.com/umg/dockerized-go
+
+WORKDIR /go/src/github.com/umg/dockerized-go
+
+VOLUME ["/go/src/github.com/umg/dockerized-go/bin"]
+
+CMD make build-static
+
